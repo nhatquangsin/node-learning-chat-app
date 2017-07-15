@@ -15,16 +15,31 @@
                     <h3>Join a Chat</h3>
                 </div>
                 <div class="form-field">
-                    <label>Display name</label>
+                    <label>Your name</label>
                     <input type="text" name="name" autofocus>
                 </div>
                 <div class="form-field">
-                    <label>Room name</label>
+                    <label>Enter a room</label>
                     <input type="text" name="room">
+                </div>
+                <div class="form-field">
+                    <label>Create new room</label>
+                    <input type="text" name="newRoom">
                 </div>
                 <div class="form-field">
                     <button>Join</button>
                 </div>
+                <!-- <div class="form-field">
+                    <script>
+                        const Rooms = require('./../server/utils/rooms.js');
+
+                        var rooms = new Rooms();
+                        
+                        rooms.forEach(function (room) {
+                            <li>room</li>
+                        });
+                    </script>
+                </div> -->
             </form>
         </div>
     </body>
